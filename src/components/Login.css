@@ -1,0 +1,57 @@
+.login-card{
+  width: 120%;
+  display: flex;
+  border-radius: 28px;
+  box-shadow: 15px 15px 30px rgba(0.5, 0.5, 0.2, 0.2);
+  
+
+
+
+}
+ 
+.form-section{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  font-size: 20px;
+  font-family:sans-serif;
+
+}
+.image{
+width: 18rem;
+height: 100%;
+border-top-left-radius: 28px;
+border-bottom-left-radius: 28px;
+  
+}
+.login-image{
+display: flow-root;
+height: 100%;
+}
+
+input,button{
+  height: 35px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+  background-color:#EEFCFF;
+  font-size: 16px;
+  width: 20rem;
+  
+}
+button{
+  margin-top: 2rem;
+  background-color: #4e46bd;
+  width: 20.3rem;
+  color: white;
+
+
+}
+.container{
+  justify-content: center;
+  align-items: center;
+}
+
+label{
+  margin-top: 1rem;
+}
+
