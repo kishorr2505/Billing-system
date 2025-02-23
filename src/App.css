@@ -6,7 +6,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-   align-items: center; 
   min-height: 100vh;
 }
 
@@ -22,5 +21,20 @@ body {
   margin-bottom: auto;
   
 }
+.sidebar-and-bill{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 
+@media (max-width:500px) {
+  .sidebar-and-bill{
+    flex-direction: column;
+  }
+
+  Sidebar{
+    height: 20vh;
+
+  }
+}
 

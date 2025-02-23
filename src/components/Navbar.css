@@ -1,10 +1,11 @@
 .navbar{
     width: 100%;
-    height: 80px;
+    height: 90px;
     background-color: white;
     display: flex;
     justify-content: space-between;
-   
+    border-bottom: 1px solid black;
+    margin-top: 0;
     
     
 }
@@ -18,8 +19,40 @@
     margin: 1rem 3rem;
 }
 
+
+
 .logoset img{
     width: 3rem;
     padding: 0.5rem;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        height: 70px; /* Reduced height */
+    }
+
+    .logo {
+        font-size: 1.2rem; /* Reduced font size */
+    }
+
+    .logoset img {
+        width: 2.5rem; /* Reduced image size */
+        padding: 0.3rem; /* Reduced padding */
+    }
+}
+
+/* Media query for extra small screens */
+@media (max-width: 480px) {
+    .navbar {
+        height: 60px; /* Reduced height */
+    }
+
+    .logo {
+        font-size: 1rem; /* Further reduced font size */
+    }
+
+    .logoset img {
+        width: 2rem; /* Further reduced image size */
+        padding: 0.2rem; /* Further reduced padding */
+    }
+}

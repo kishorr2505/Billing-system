@@ -1,0 +1,60 @@
+.billing-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .bill-info {
+    margin-bottom: 10px;
+  }
+  
+  .items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .items-table th, .items-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .items-table th {
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  .items-table select,
+  .items-table input {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .add-item-btn {
+    background-color: #4e46bd;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .summary {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+  }
+  
+  .total {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
