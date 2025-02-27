@@ -1,0 +1,38 @@
+.stocks-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100vmin;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .stocks-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-stock-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .add-stock-btn:hover {
+    background-color: #0056b3;
+  }
+  

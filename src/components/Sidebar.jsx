@@ -1,6 +1,6 @@
 import "./Sidebar.css";
 
-const Sidebar = ({ onShowBilling, onShowBillHistory }) => {
+const Sidebar = ({ onShowBilling, onShowBillHistory ,onShowStocks,onLogout}) => {
   return (
     <div className="sidebar">
       <div className="profile">
@@ -24,7 +24,7 @@ const Sidebar = ({ onShowBilling, onShowBillHistory }) => {
           <img src="https://cdn-icons-png.flaticon.com/128/3215/3215528.png" alt="Bill History" />
           &nbsp;&nbsp; Bill History
         </button>
-        <button className="menu-item">
+        <button className="menu-item" onClick={onShowStocks}>
           <img src="https://cdn-icons-png.flaticon.com/128/4947/4947506.png" alt="Stock" />
           &nbsp;&nbsp; Stock
         </button>
@@ -32,11 +32,11 @@ const Sidebar = ({ onShowBilling, onShowBillHistory }) => {
           <img src="https://cdn-icons-png.flaticon.com/128/1800/1800496.png" alt="Printer" />
           &nbsp;&nbsp; Printer Con
         </button>
-        <button className="menu-item">
+        {/* <button className="menu-item">
           <img src="https://cdn-icons-png.flaticon.com/128/2040/2040504.png" alt="Settings" />
           &nbsp;&nbsp; Settings
-        </button>
-        <button className="menu-item logout">
+        </button> */}
+        <button className="menu-item logout" onClick={onLogout}>
           <img src="https://cdn-icons-png.flaticon.com/128/10609/10609328.png" alt="Logout" />
           &nbsp;&nbsp; Log Out
         </button>
